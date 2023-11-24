@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Rastreie seu pedido</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Rastreie seu pedido2.css">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg primary-bg-color py-4 px-2" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="./home2.html">CraftWave</a>
+            <div id="navbar-items">
+                <div></div>
+                <form class="d-flex" id="search-form">
+                    <i class="bi bi-search primary-color"></i>
+                    <input class="form-control me-2" type="search" placeholder="Busque sua impressora 3D"
+                        aria-label="Search">
+                    <button class="btn secondary-bg-color" type="submit">Buscar</button>
+                </form>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">
+                            <i class="bi bi-person"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-heart"></i>
+                        </a>
+                        <span class="qty-info">5</span>
+                    </li>
+                    <li class="nav-item" id="bag-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-bag"></i>
+                            <b>R$ 1290,12</b>
+                        </a>
+                        <span class="qty-info">8</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg secondary-bg-color p-2" id="bottom-navbar-container">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar"
+                aria-controls="bottom-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
+                <li class="nav-item">
+                    <a class="nav-link" href="./home2.html">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#new-products">
+                        Produtos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bottom-banner">
+                        Promoções
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Blog
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer-center">
+                        Contato
+                    </a>
+                </li>
+                <li class="nav">
+                    <label class="interruptor">
+                        <input type="checkbox" id="botao-acessibilidade">
+                        <span class="interruptor-slider"></span>
+                    </label>
+            </ul>
+        </div>
+    </nav>
+    <!-- FIM NAVBAR -->
+
+    <div class="text">
+        <h1>Funcionamento do Rastreio de Pedidos da CraftWave</h1>
+
+        <p>
+            O sistema de rastreio de pedidos da CraftWave oferece aos nossos clientes uma maneira eficaz de acompanhar o
+        status e o progresso de seus pedidos. Abaixo, estão as funcionalidades e o funcionamento desse sistema,
+        explicados em tópicos:
+        </p>
+        <br>
+        <h2>1. Acesso Fácil:</h2>
+
+        <p>
+            Os clientes podem acessar a plataforma de rastreio de pedidos da CraftWave através do nosso site oficial ou
+        aplicativo móvel.
+        </p>
+        <br>
+        <h2>2. Identificação do Pedido:</h2>
+
+        <p>
+            Os clientes precisam inserir informações específicas para identificar o pedido que desejam rastrear, como número
+        de pedido ou código de rastreio.
+        </p>
+        <br>
+        <h2>3. Informações Detalhadas:</h2>
+
+        <p>
+            Após a identificação do pedido, os clientes têm acesso a informações detalhadas sobre o status atual do pedido,
+        incluindo a data estimada de entrega.
+        </p>
+        <br>
+        <h2>4. Atualizações em Tempo Real:</h2>
+
+        <p>
+            O sistema fornece atualizações em tempo real sobre o progresso do pedido, desde o momento em que é processado
+        até a entrega final.
+        </p>
+        <br>
+        <h2>5. Notificações por E-mail ou SMS:</h2>
+
+        <p>
+            Os clientes podem optar por receber notificações automáticas por e-mail ou SMS sobre qualquer alteração
+        significativa no status do pedido, como saída do depósito ou chegada ao destino.
+        </p>
+        <br>
+        <h2>6. Mapa de Rastreamento:</h2>
+
+        <p>
+            Para pedidos em trânsito, oferecemos a funcionalidade de mapa de rastreamento, permitindo que os clientes
+        visualizem a localização exata do pedido durante a entrega.
+        </p>
+        <br>
+        <h2>7. Estimativas de Entrega Precisas:</h2>
+
+        <p>
+            O sistema calcula estimativas de entrega com base em informações logísticas, como distância, rota e condições de
+        tráfego, proporcionando aos clientes uma ideia precisa do prazo de entrega.
+        </p>
+        <h2>8. Suporte ao Cliente:</h2>
+
+        <p>
+            Nossa equipe de suporte ao cliente está disponível para ajudar os clientes com qualquer dúvida ou preocupação
+        relacionada ao rastreio de pedidos.
+        </p>
+        <br>
+        <h2>9. Histórico de Pedidos:</h2>
+
+        <p>
+            Os clientes podem acessar o histórico completo de seus pedidos anteriores, permitindo o acompanhamento de todas
+        as compras feitas na CraftWave.
+        </p>
+        <br>
+        <h2>10. Personalização de Notificações:</h2>
+        <p>
+            - Os clientes têm a opção de personalizar as notificações de rastreamento de acordo com suas preferências, como
+        escolher receber atualizações apenas em eventos específicos.
+        </p>
+        <br>
+        <h2>11. Segurança e Privacidade:</h2>
+        <p>
+            - Garantimos a segurança dos dados dos clientes e a privacidade das informações relacionadas ao rastreio de
+        pedidos, seguindo rigorosas práticas de segurança cibernética e conformidade com regulamentações de proteção de
+        dados.
+        </p>
+        <p>
+            O sistema de rastreio de pedidos da CraftWave visa proporcionar uma experiência transparente e conveniente aos
+        nossos clientes, permitindo que eles acompanhem o trajeto de seus pedidos desde o momento da compra até a
+        entrega final. Estamos comprometidos em manter nossos clientes informados e satisfeitos com cada pedido que
+        fazem.
+        </p>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="container-fluid" id="gallery">
+        <div class="row">
+            <div class="col-6 col-md-2 image-container" id="insta1">
+            </div>
+            <div class="col-6 col-md-2 image-container" id="insta2">
+            </div>
+            <div class="col-6 col-md-2 image-container" id="insta3">
+            </div>
+            <div class="col-6 col-md-2 image-container" id="insta4">
+            </div>
+            <div class="col-6 col-md-2 image-container" id="insta5">
+            </div>
+            <div class="col-6 col-md-2 image-container" id="insta6">
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container-fluid" id="footer-links-container">
+            <div class="row">
+                <div class="col-12 col-md-4 footer-column">
+                    <h3>Páginas</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="secondary-color">Home</a></li>
+                        <li class="mb-2"><a href="#" class="secondary-color">Categorias</a></li>
+                        <li class="mb-2"><a href="#" class="secondary-color">Promoções</a></li>
+                        <li class="mb-2"><a href="#" class="secondary-color">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 footer-column" id="footer-center">
+                    <h3>CraftWave</h3>
+                    <p class="secondary-color-3">Alguma dúvida? Ligue para nós</p>
+                    <p class="store-phone"><i class="bi bi-telephone"></i> (11)93940-2687</p>
+                </div>
+                <div class="col-12 col-md-4 footer-column">
+                    <h3>Informações</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="./Politica de privacidade2.html" class="secondary-color">Política de Privacidade</a></li>
+                        <li class="mb-2"><a href="./Politica de entrega2.html" class="secondary-color">Política de Entregas</a></li>
+                        <li class="mb-2"><a href="./Rastreie seu pedido2.html" class="secondary-color">Rastreie seu pedido</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="newsletter-container">
+            <div class="col-12">
+                <div class="row">
+                    <p id="newsletter" class="secondary-color">Se inscreva na nossa Newsletter:</p>
+                    <form class="d-flex" id="news-form">
+                        <i class="bi bi-envelope primary-color"></i>
+                        <input class="form-control me-2" placeholder="Insira seu e-mail">
+                        <button class="btn secondary-bg-color" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12" id="social-container">
+                <a href="https://www.facebook.com/senaistoandre/?locale=pt_BR"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/senai.sp/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCzqd0VpWU_w4BKwmSvFdieQ"><i class="bi bi-youtube"></i></a>
+                <a href="https://twitter.com/SENAInacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                        class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+        <div class="container" id="copy-container">
+            <p>Todos os direitos reservados @2023 <span class="primary-color">CraftWave</span> - A sua loja de
+                impressoras 3D</p>
+        </div>
+    </footer>
+
+    <script src="./Rastreie seu pedido2.js"></script>
+</body>
+
+</html>
