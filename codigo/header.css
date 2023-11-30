@@ -1,13 +1,18 @@
 body{
+    font-family: 'Julius Sans One', sans-serif;
 }
 
+/* ---------------------------- HEADER ------------------------------------*/
 header {
     background-color: #0a0a6c;
 }
 
-header  img {
+header img {
     height: 80px;
-    width: ;
+}
+
+#branco-logo{
+    padding-left: 25px;
 }
 
 .main-header{
@@ -47,30 +52,35 @@ header  img {
 }
 
 #busca {
-    height: 30px;
+    height: 25px;
+    width: 250px;
+}
+
+::placeholder{
+    font-size: 13px;
 }
 
 #navbarSupportedContent {
-    height: 40px;
-    width: 60vw;
+    height: 35px;
+    width: 65vw;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 #navbarSupportedContent a {
-    text-decoration: underline;
-    font-size: large;
+    font-size: 13px;
+    font-weight: bold;
 
 }
 
 #navbarSupportedContent button {
-    height: 30px;
+    height: 25px;
     padding: 0px;
     background-color:#5493f2;
     border: 0;
 }
 .navbar button img{
-    height: 30px;
+    height: 25px;
 }
 
 
@@ -80,3 +90,5 @@ header  img {
     width: 100vw;
     justify-content: center;
 }
+
+/* ---------------------------------------------------------------------- */
