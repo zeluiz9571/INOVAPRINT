@@ -1,0 +1,28 @@
+body{
+}
+
+header {
+    background-color: #0a0a6c;
+}
+
+#nav {
+    padding: 0px;
+}
+
+.container-fluid {
+    background-color: #0a0a6c;
+    height: 100px;
+}
+
+.navbar {
+    background-color: #5493f2;
+    border-radius: 5px;
+    
+}
+
+.sub-navbar {
+    background-color: white;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
