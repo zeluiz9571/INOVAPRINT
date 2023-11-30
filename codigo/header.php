@@ -12,10 +12,12 @@
 </head>
 <body>
 <header>
+<div class='main-header'>
+<img src='../img/logo_branco.png'>
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary" id='nav'>
 
   <div class="container-fluid">
-  <img src='../img/celebro-removebg-preview 1 (1) (1) 2.png'>
 
     <div class='navbar'>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,30 +40,32 @@
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Aluguel</a>
             </li>
-            <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <form class='form-busca' role="search">
+            <input class="form-control me-2" id='busca' type="search" placeholder="Search" aria-label="Search">
+            <button type="submit"><img src="../img/lupa.png"></button>
         </form>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-            </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            </li>
+        
         </ul>
         </div>
+        
     </div>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
   </div>
 </nav>
+</div>
+
 <div class='sub-navbar'>
 <img src="../img/logo.png">
 </div>
-
 </header>
 </body>
 </html>

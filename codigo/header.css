@@ -5,6 +5,17 @@ header {
     background-color: #0a0a6c;
 }
 
+header  img {
+    height: 80px;
+    width: ;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
 #nav {
     padding: 0px;
 }
@@ -12,13 +23,43 @@ header {
 .container-fluid {
     background-color: #0a0a6c;
     height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
 }
 
 .navbar {
     background-color: #5493f2;
     border-radius: 5px;
-    
+    right: 10px;
+    display: flex;
+    align-items: center;
+    height: ;
 }
+
+.navbar  li {
+    margin-right: 30px;
+}
+
+.form-busca {
+    display: flex;
+    align-items: center;
+}
+
+#busca {
+    height: 30px;
+}
+
+#navbarSupportedContent button {
+    height: 30px;
+    padding: 0px;
+    background-color:#5493f2;
+    border: 0;
+}
+.navbar button img{
+    height: 30px;
+}
+
 
 .sub-navbar {
     background-color: white;
