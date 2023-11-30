@@ -34,7 +34,7 @@ header  img {
     right: 10px;
     display: flex;
     align-items: center;
-    height: ;
+    padding: 0;
 }
 
 .navbar  li {
@@ -48,6 +48,19 @@ header  img {
 
 #busca {
     height: 30px;
+}
+
+#navbarSupportedContent {
+    height: 40px;
+    width: 60vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navbarSupportedContent a {
+    text-decoration: underline;
+    font-size: large;
+
 }
 
 #navbarSupportedContent button {
