@@ -10,7 +10,6 @@
 #main-img-div{
     display: flex;
     background-image: url("../img/impressoras.png");
-    background-color: aquamarine;
     height: 541px;
     width: 616px;
     color: white;

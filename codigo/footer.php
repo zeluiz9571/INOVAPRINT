@@ -13,6 +13,7 @@
     </div>
     <footer>
     <h1 id='footer-title'>INOVA PRINT</h1>
+    <p>Todos os direitos reservados @2023 InovaPrint - A sua loja de impressoras 3D</p>
     </footer>
 </body>
 </html>
