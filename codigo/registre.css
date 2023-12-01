@@ -11,7 +11,7 @@ body {
 
 .images-div{
     background-image: url('../img/loginback.jpg' );
-    height: 120vh;
+    height: 130vh;
     width: 45vw;
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@ textarea:focus, input:focus{
     flex-direction: row;
     gap: 5px;
     border-bottom: 1px solid #000;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 #msg-login p{
