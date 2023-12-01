@@ -21,13 +21,18 @@
             <form>
                 <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" placeholder="Digite seu email" required>
+                <input type="email" placeholder="Email" required>
                 </div>
                 <div class="form-group">
                 <label for="email">Senha:</label>
-                <input type="email" placeholder="Digite sua senha" required>
+                <input type="password" placeholder="Senha" required>
                 </div>
+                <button id='submit-btn' type="submit">Entrar</button>
             </form>
+            <div id='msg-login'>
+                <p>Não tem uma conta?</p>
+                <a href='registre.php'>Registre-se</a>
+            </div>
         </div>
     </div>
 </body>
