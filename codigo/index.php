@@ -92,7 +92,3 @@
   <a href="#">Veja Mais</a>
   </div>
 </div>
-
-<?php
-include_once('footer.php')
-?>
