@@ -11,7 +11,7 @@
 <body>
     <footer>
         <div id='main-footer'>
-    <h2 id='footer-title'>INOVA PRINT</h2>
+    <h2 id='footer-title'>INOVAPRINT</h2>
     <div id='foot-icons'>
     <img src="../img/facebook-icon.png">
     <img src="../img/twitter-icon.png">
