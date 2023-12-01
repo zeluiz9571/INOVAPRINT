@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.spacing-div {
+    height: 100vh;
+}
+
+footer {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 30vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+#footer-title{
+    margin-top: 40px;
+    font-weight: bold;
+}

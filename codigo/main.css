@@ -1,0 +1,100 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+#principal-div{
+    display: flex;
+    border-style: solid;
+}
+
+#main-img-div{
+    display: flex;
+    background-image: url("../img/impressoras.png");
+    background-color: aquamarine;
+    height: 541px;
+    width: 616px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-text{
+    font-size: 60px;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    margin-top: 15px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+#main-card-title{
+    font-size: 25px;
+}
+
+#main-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+.card-body{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.card img{
+    height: 280px;
+}
+
+#card-btn {
+    background-color: black;
+}
+
+.card-title {
+    min-height: 100px;
+}
+
+
+#sub-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border-style: solid;
+}
+
+
+#sub-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#prod-link{
+    text-decoration: none;
+    color: black;
+}
+
+#prod-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#prod-card img{
+    height: 350px;
+    border-radius: 55px;
+}
+
+#sub-link{
+    width: 80vw;
+    text-align: end;
+}
