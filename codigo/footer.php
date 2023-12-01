@@ -9,11 +9,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class='spacing-div'>
-    </div>
     <footer>
-    <h1 id='footer-title'>INOVA PRINT</h1>
+        <div id='main-footer'>
+    <h2 id='footer-title'>INOVA PRINT</h2>
+    <div id='foot-icons'>
+    <img src="../img/facebook-icon.png">
+    <img src="../img/twitter-icon.png">
+    <img src="../img/instagram-icon.png">
+    </div>
+
     <p>Todos os direitos reservados @2023 InovaPrint - A sua loja de impressoras 3D</p>
+        </div>
     </footer>
 </body>
 </html>
