@@ -1,0 +1,21 @@
+.main-div{
+    display: flex;
+
+}
+
+.login-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-logo{
+    width: 40vw;
+}
+
+.images-div{
+    background-image: url('../img/login-background.png' );
+    height: 100vh;
+    width: 26vw;
+    background-size: contain;
+}
