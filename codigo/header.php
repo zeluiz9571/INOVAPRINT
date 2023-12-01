@@ -35,7 +35,7 @@
             <a class="nav-link active" aria-current="page" href="#">Produtos</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+            <a class="nav-link active" aria-current="page" href="sobre.php">Sobre</a>
             </li>
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Dúvidas</a>
