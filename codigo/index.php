@@ -1,5 +1,5 @@
 <?php
-    include_once('header.php')
+    include('header.php')
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-    <a href="#" align='right'>Veja mais</a>
+    <a href="produtos.php" align='right'>Veja mais</a>
   </div>
   <div id='main-img-div'>
     <h1 id='img-text'>IMPRESSORAS 3D</h1>
@@ -70,8 +70,8 @@
   <div id='sub-cards'>
     <a id='prod-link' href="#">
     <div id='prod-card'>
-      <img src="../img/Monoprice_Select_Mini_V2.jpeg">
-      <p>Monoprice Select Mini V2</p>
+      <img src="../img/Anycubic i3 Mega.jpeg">
+      <p>Anycubic i3 Mega</p>
     </div>
     </a>
     <a id='prod-link' href="#">
@@ -82,14 +82,14 @@
     </a>
     <a id='prod-link' href="#">
     <div id='prod-card'>
-      <img src="../img/Monoprice_Select_Mini_V2.jpeg">
-      <p>Monoprice Select Mini V2</p>
+      <img src="../img/Formlabs_Form_3.jpeg">
+      <p>Formlabs Form 3</p>
     </div>
     </a>
     
   </div>
   <div id='sub-link'>
-  <a href="#">Veja Mais</a>
+  <a href="produtos.php">Veja Mais</a>
   </div>
 </div>
 

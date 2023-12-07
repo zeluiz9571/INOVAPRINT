@@ -16,8 +16,9 @@
 <body>
 <header>
 <div class='main-header'>
+  <a href="index.php">
 <img src='../img/logo_branco.png' id='branco-logo'>
-
+  </a>
 <nav class="navbar navbar-expand-lg bg-body-tertiary" id='nav'>
 
   <div class="container-fluid">
@@ -32,7 +33,7 @@
             <a class="nav-link active" aria-current="page" href="#">Contato</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Produtos</a>
+            <a class="nav-link active" aria-current="page" href="produtos.php">Produtos</a>
             </li>
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="sobre.php">Sobre</a>

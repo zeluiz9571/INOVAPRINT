@@ -1,0 +1,39 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.sub-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.sub-main img{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 5px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    width: 300px;
+}
+
+.sub-main a {
+    text-decoration: none;
+}
