@@ -53,16 +53,17 @@
         </div>
         
     </div>
-    <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+<!-- Default dropstart button -->
+<div class="btn-group dropstart">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
     Menu
   </button>
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="#">Conta</a></li>
-    <li><a class="dropdown-item" href="#">Configurações</a></li>
     <li><a class="dropdown-item" href="#">Carrinho</a></li>
-  </ul>
 </div>
+
+
   </div>
 </nav>
 </div>

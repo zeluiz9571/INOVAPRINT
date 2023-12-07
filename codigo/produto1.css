@@ -37,3 +37,7 @@
 .sub-main a {
     text-decoration: none;
 }
+
+.products p{
+    min-height: 60px;
+}
