@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(253, 248, 230);
+}
+.title{
+ text-align: center;
+ text-decoration: underline;
+}
+#title-a{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.content{
+    margin-bottom: 50px;
+    padding-left: 325px;
+    text-align: center;
+    width: 75vw;
+}
