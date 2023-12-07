@@ -2,9 +2,7 @@
 include('header.php')
 ?>
 
-
-
-    <link rel="stylesheet" href="produto1.css">
+<link rel="stylesheet" href="produto1.css">
 
 <body>
     <div class='main-div'>
