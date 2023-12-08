@@ -58,9 +58,8 @@
 <!-- Default dropstart button -->
 <div class="btn-group dropstart">
   <img src="../img/menuimg.jpg" id='navbar-btn' data-bs-toggle="dropdown" aria-expanded="false">
-    Menu
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Conta</a></li>
+    <li><a class="dropdown-item" href="conta.php">Conta</a></li>
     <li><a class="dropdown-item" href="#">Carrinho</a></li>
 </div>
 

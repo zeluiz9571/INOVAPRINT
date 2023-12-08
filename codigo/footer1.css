@@ -3,10 +3,13 @@ body{
     padding: 0px;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 footer {
     font-family: 'Inter', sans-serif;
     height: 30vh;
-    margin-top: 5%;
     background-color: black;
     color: white;
 }
