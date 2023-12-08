@@ -9,26 +9,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="../img/logo_branco.png">
 
-</head>
-
+<!-- -------------------------------------------------- -->
 <?php
-include_once('conexao.php');
-
-    if(isset($_POST['submit']))
-    {
-        $nome = $_POST['nome'];
-        $email = $_POST['email'];
-        $senha = $_POST['senha'];
-
-        $result = mysqli_query($mysqli, "INSERT INTO usuarios(nome, email, senha) 
-        VALUES('$nome', '$email', '$senha')");
-
-        header("location:index.php");
-
-    }
-
+include('header.php')
 ?>
 
+</head>
 <body>
     <div class="main-div">
         <div class="images-div">
@@ -36,9 +22,8 @@ include_once('conexao.php');
         </div>
         <div class="login-div">
             <a href='../codigo/index.php'>
-            <img id='login-logo' src="../img/logo.png">
             </a>
-            <h1 id='login-title'>REGISTRE-SE</h1>
+            <h1 id='login-title' style="padding: 3%;">CONTATO</h1>
             <form action="registre.php" method="POST">
             <div class="form-group">
                 <label for="email">Nome completo:</label>
@@ -49,14 +34,10 @@ include_once('conexao.php');
                 <input type="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="form-group">
-                <label for="email">Senha:</label>
-                <input type="password" name="senha" placeholder="Senha" required>
+                <label for="email">Sua mensagem:</label>
+                <input type="text" name="mensagem" placeholder="Escreva aqui sua mensagem" required>
                 </div>
-                <div class="form-group">
-                <label for="email">Confirmar Senha:</label>
-                <input type="password" placeholder="Confirmar Senha" required>
-                </div>
-                <button id='submit-btn' name="submit" type="submit">Entrar</button>
+                <button id='submit-btn' name="submit" type="submit">Enviar</button>
             </form>
             <div id='msg-login'>
                 <p>Já tem uma conta?</p>

@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="../img/logo_branco.png">
+
 
 </head>
 <body>
@@ -68,7 +70,7 @@
 </nav>
 </div>
 
-<div class='sub-navbar'>
+<div class='sub-navbar' id="img1">
 <img src="../img/logo.png">
 </div>
 </header>
