@@ -16,10 +16,12 @@
         <h3>Formas de pagamento:</h3>
     </div>
     <div class="content">
-        <div class="forma">
+       <div class="title-a">
             <br>
             <p align="center">Cartão(crédito e débito)</p>
             <br>
+            </div>
+            <div class="forma">
                 <div class="input-box">
                     <label for="number">Número do cartão</label>
                     <input id="number" name="number" placeholder="Número do cartão" required>
