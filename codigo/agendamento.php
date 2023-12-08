@@ -22,7 +22,7 @@ include('header.php')
 ?>
 
 </head>
-<body>
+<body >
         <div class="login-div">
             <a href='../codigo/index.php'>
             </a>
