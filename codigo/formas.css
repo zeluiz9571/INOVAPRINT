@@ -3,9 +3,29 @@ body{
     margin: none;
     }
 .content{
-    height: 110vh;
+    height: 80vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.forma{
+    flex-direction: initial;
 }
 .title{
 text-decoration: underline;
+}
+.title-a{
+   position: relative;
+}
+.option{
+margin-top: 7%;
+
+}
+#number{
+    margin: none;
+    border:0;
+    border-bottom: 1px solid #000;
 }

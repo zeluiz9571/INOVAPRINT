@@ -33,6 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
     width: 60vw;
 }
 
@@ -99,4 +100,12 @@ textarea:focus, input:focus{
 #msg-login a{
     text-decoration: none;
     color: #4c69ff;
+}
+
+.ui-datepicker {
+    background-color: #fff; /* Cor de fundo do calendário */
+    border: 1px solid #ccc; /* Borda do calendário */
+    padding: 10px; /* Espaçamento interno do calendário */
+    opacity: 1;
+    z-index: 1000; 
 }
