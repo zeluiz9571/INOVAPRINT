@@ -30,6 +30,7 @@ if(!isset($_SESSION)) {
     </div>
     <a href='logout.php'>Sair</a>
     <a href='delete.php'>Deletar conta</a>
+    <a href='edit.php'>Editar</a>
     </div>
     
 
