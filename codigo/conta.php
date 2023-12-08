@@ -29,7 +29,9 @@ if(!isset($_SESSION)) {
     </p>
     </div>
     <a href='logout.php'>Sair</a>
+    <a href='delete.php'>Deletar conta</a>
     </div>
+    
 
     <script>
     function ocultarSenha() {

@@ -23,7 +23,7 @@ include_once('conexao.php');
         $result = mysqli_query($mysqli, "INSERT INTO usuarios(nome, email, senha) 
         VALUES('$nome', '$email', '$senha')");
 
-        header("location:index.php");
+        header("location:login.php");
 
     }
 
