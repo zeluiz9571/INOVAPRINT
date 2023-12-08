@@ -61,7 +61,7 @@
     Menu
   </button>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Conta</a></li>
+    <li><a class="dropdown-item" href="conta.php">Conta</a></li>
     <li><a class="dropdown-item" href="#">Carrinho</a></li>
 </div>
 
