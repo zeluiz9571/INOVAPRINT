@@ -70,7 +70,7 @@
 </nav>
 </div>
 
-<div class='sub-navbar'>
+<div class='sub-navbar' id="img1">
 <img src="../img/logo.png">
 </div>
 </header>
