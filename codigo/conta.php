@@ -45,4 +45,7 @@ if(!isset($_SESSION)) {
   </script>
 </head>
 
+<?php
+include('footer.php')
+?>
 </html>
