@@ -14,13 +14,35 @@ if(!isset($_SESSION)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="conta.css">
+
 </head>
 <body>
-    Bem vindo, <?php echo $_SESSION['nome']; ?>
-
-    <p>
-        <a href='logout.php'>Sair</a>
+    <div class='main-div'>
+    <h1>Minha conta</h1>
+    <h2>Informarções:</h2>
+    <p>Nome: <?php echo $_SESSION['nome']; ?></p>
+    <p>Email: <?php echo $_SESSION['email']; ?></p>
+    <div class='senha-div'>
+    <p>Senha:</p>
+    <p id="senha"><?php echo $_SESSION['senha'];?></p>
     </p>
-</body>
+    </div>
+    <a href='logout.php'>Sair</a>
+    </div>
+
+    <script>
+    function ocultarSenha() {
+      var paragrafo = document.getElementById("senha");
+      paragrafo.innerHTML = "*".repeat(paragrafo.innerHTML.length);
+    }
+
+    window.addEventListener("load", function() {
+      // Sua função será executada quando a janela estiver completamente carregada
+      ocultarSenha();
+    });
+
+  </script>
+</head>
+
 </html>

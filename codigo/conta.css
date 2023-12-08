@@ -1,0 +1,16 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.senha-div{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
