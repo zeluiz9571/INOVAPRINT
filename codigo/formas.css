@@ -1,9 +1,11 @@
 body{
-    height: 80vh;
-    
+    height: 100%;
+    margin: none;
+    }
+.content{
+    height: 110vh;
+    width: 100%;
 }
-
 .title{
-
-    text-decoration: underline;
+text-decoration: underline;
 }
