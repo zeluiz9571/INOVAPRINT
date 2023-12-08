@@ -14,7 +14,7 @@ if(!isset($_SESSION)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="conta.css">
+    <link rel="stylesheet" href="conta1.css">
 
 </head>
 <body>
@@ -25,8 +25,8 @@ if(!isset($_SESSION)) {
     <p>Email: <?php echo $_SESSION['email']; ?></p>
     <div class='senha-div'>
     <p>Senha:</p>
-    <p id="senha"><?php echo $_SESSION['senha'];?></p>
-    </p>
+    <p id="senha"><?php echo $_SESSION['senha'];?></p><input type="checkbox" id="mostrarSenha"> 
+    
     </div>
     <a href='logout.php'>Sair</a>
     <a href='delete.php'>Deletar conta</a>
@@ -46,9 +46,23 @@ if(!isset($_SESSION)) {
     });
 
   </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var senhaParagrafo = document.getElementById("senha");
+      var mostrarSenhaCheckbox = document.getElementById("mostrarSenha");
+
+      mostrarSenhaCheckbox.addEventListener("change", function() {
+        // Alterna entre "text" e "password" com base na marcação do checkbox
+        senhaParagrafo.innerHTML = this.checked ? "MinhaSenha123" : "********";
+      });
+    });
+  </script>
+
 </head>
 
 <?php
 include('footer.php')
 ?>
+
 </html>
