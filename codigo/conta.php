@@ -25,12 +25,13 @@ if(!isset($_SESSION)) {
     <p>Email: <?php echo $_SESSION['email']; ?></p>
     <div class='senha-div'>
     <p>Senha:</p>
-    <p id="senha"><?php echo $_SESSION['senha'];?></p><input type="checkbox" id="mostrarSenha"> 
+    <p id="senha"><?php echo $_SESSION['senha'];?></p><input type="checkbox" id="mostrarSenha">
     
     </div>
-    <a href='logout.php'>Sair</a>
-    <a href='delete.php'>Deletar conta</a>
     <a href='edit.php'>Editar</a>
+    <a href='delete.php'>Deletar conta</a>
+    <a href='logout.php'>Sair</a>
+
     </div>
     
 
