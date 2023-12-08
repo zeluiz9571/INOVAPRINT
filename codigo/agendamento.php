@@ -8,6 +8,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="../img/logo_branco.png">
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+         $(function () {
+            $("#datepicker").datepicker({
+                dateFormat: 'dd/mm/yy',
+                dayNames: ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'],
+                dayNamesMin: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'],
+                monthNames: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+                monthNamesShort: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez']
+            });
+        });
+    </script>
 
 <!-- -------------------------------------------------- -->
 <?php
@@ -15,25 +28,31 @@ include('header.php')
 ?>
 
 </head>
-<body>
+<body >
         <div class="login-div">
             <a href='../codigo/index.php'>
             </a>
-            <h1 id='login-title' style="padding: 3%;">CONTATO</h1>
+            <h1 id='login-title' style="padding: 3%;">AGENDAMENTO</h1>
             <form action="registre.php" method="POST">
             <div class="form-group">
                 <label for="email">Nome completo:</label>
                 <input type="text" name="nome" placeholder="Nome completo" required>
                 </div>
+                <label for="datepicker">SELECIONE UMA DATA:</label>
+            <input type="text" id="datepicker">
+            <br>
+            <br>
+            <br>
                 <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" name="email" placeholder="Email" required>
+                <label for="opcoes">Selecione uma opção de serviço:</label>
+            <select id="opcoes">
+            <option value="opcao1">Alugar máquina</option>
+            <option value="opcao2">Fazer agendamento</option>
+            </select>
                 </div>
-                <div class="form-group">
-                <label for="email">Sua mensagem:</label>
-                <input type="text" name="mensagem" placeholder="Escreva aqui sua mensagem" required>
-                </div>
-                <button id='submit-btn' name="submit" type="submit">Enviar</button>
+                <button id='submit-btn' name="submit" type="submit" style="margin-bottom: 10%;">Enviar</button>
             </form>
         </div>
     </div>
