@@ -83,6 +83,13 @@ header img {
     height: 25px;
 }
 
+#navbar-btn {
+    width: 100px;
+}
+
+#navbar-btn:hover {
+    cursor: pointer;
+}
 
 .sub-navbar {
     background-color: white;
