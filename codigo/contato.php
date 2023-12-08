@@ -39,10 +39,6 @@ include('header.php')
                 </div>
                 <button id='submit-btn' name="submit" type="submit">Enviar</button>
             </form>
-            <div id='msg-login'>
-                <p>Já tem uma conta?</p>
-                <a href='login.php'>Faça Login</a>
-            </div>
         </div>
     </div>
 </body>
