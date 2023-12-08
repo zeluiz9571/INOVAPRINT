@@ -11,10 +11,11 @@
 
 </head>
 <body>
-    <br><br>
+    <br>
     <div class="title" align="center">
         <h3>Formas de pagamento</h3>
     </div>
+    <div class="content">
         <br>
         <p>Cartão(crédito e débito)</p>
         <br>
@@ -46,7 +47,8 @@
         </div>
         <br>
         <div class="option">
-        <p>não tem uma conta?<a href="#">Registre-se</a></p>
+        <p align="center">não tem uma conta?<a href="#">Registre-se</a></p>
+        </div>
         </div>
 </body>
 </html>
