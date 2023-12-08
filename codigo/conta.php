@@ -54,7 +54,7 @@ if(!isset($_SESSION)) {
 
       mostrarSenhaCheckbox.addEventListener("change", function() {
         // Alterna entre "text" e "password" com base na marcação do checkbox
-        senhaParagrafo.innerHTML = this.checked ? "MinhaSenha123" : "********";
+        senhaParagrafo.innerHTML = this.checked ? "<?php echo $_SESSION['senha'];?>" : "********";
       });
     });
   </script>
