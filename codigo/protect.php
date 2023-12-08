@@ -5,5 +5,5 @@ if(!isset($_SESSION)) {
 }
 
 if(!isset($_SESSION['id'])) {
-    die("Você nao esta logado<p><a href=\"login.php\">Entrar</a></p>");
+    die("Você não está logado<p><a href=\"login.php\">Entrar</a></p>");
 }

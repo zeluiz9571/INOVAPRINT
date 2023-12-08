@@ -3,6 +3,10 @@ body{
     padding: 0px;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 footer {
     font-family: 'Inter', sans-serif;
     height: 30vh;
