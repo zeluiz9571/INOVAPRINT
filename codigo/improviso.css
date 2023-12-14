@@ -1,0 +1,44 @@
+#titulo {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.sub-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide em duas colunas */
+    gap: 20px; /* Espaço entre as colunas */
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.products img {
+    max-width: 100%; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+#texto {
+    text-align: center;
+    margin-top: 0%; /* Espaço acima do preço */
+    margin-right: 20%; /* Espaço à direita do preço */
+    margin-bottom: 10%; 
+}
+
+#preco {
+    text-align: right;
+    margin-bottom: 10%; /* Espaço acima do preço */
+    margin-right: 25%; /* Espaço à direita do preço */
+}
+
+.card-body{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.card img{
+    height: 280px;
+}
+
+#card-btn {
+    background-color: black;
+    height: 50px;
+    font-size: 30px;;
+}

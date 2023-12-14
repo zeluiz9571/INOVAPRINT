@@ -85,7 +85,7 @@
       <p>Anycubic i3 Mega</p>
     </div>
     </a>
-    <a id='prod-link' href="#">
+    <a id='prod-link' href="improviso.php">
     <div id='prod-card'>
       <img src="../img/Monoprice_Select_Mini_V2.jpeg">
       <p>Monoprice Select Mini V2</p>
