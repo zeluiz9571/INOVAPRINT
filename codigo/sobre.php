@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="sobre1.css">
 
 </head>
-<body>
+<body>      
     <div class="title">
         <h1 id="title-a">SOBRE NÓS:<h1>
     </div>
