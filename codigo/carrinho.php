@@ -99,7 +99,7 @@ include("header.php")
 			<br>
 			<br>
 			
-			<div align="center" id="botaofinal"><a href="finalizar.html">FINALIZAR COMPRA</a></div>
+			<div align="center" id="botaofinal"><a href="index.php">FINALIZAR COMPRA</a></div>
 			
 			
 			
