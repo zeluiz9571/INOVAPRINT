@@ -44,10 +44,6 @@
                     <input id="number" name="boleto" placeholder="*******" required>
                 </div>
                 <br>
-                <div class="input-box">
-                    <label for="PIX">PIX</label>
-                    <input id="number" name="PIX" placeholder="*******" required>
-                </div>
         </div>
                 <br>
                 <div class="option">
