@@ -61,6 +61,8 @@
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="conta.php">Conta</a></li>
     <li><a class="dropdown-item" href="carrinho.php">Carrinho</a></li>
+    <li><a class="dropdown-item" href="politicas.php">Política de Privacidade</a></li>
+
 </div>
 
 
