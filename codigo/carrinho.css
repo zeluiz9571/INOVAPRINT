@@ -30,6 +30,7 @@
     color: white;
     border-radius: 3px;
     margin: 0px 100px;
+    
   }
   #total{
     font-size: 20px;
@@ -176,3 +177,6 @@
     right: 0;
   }
   
+  #fundo{
+margin-left: 40%;
+  }
