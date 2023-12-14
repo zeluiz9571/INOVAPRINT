@@ -41,10 +41,10 @@
             <a class="nav-link active" aria-current="page" href="sobre.php">Sobre</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Dúvidas</a>
+            <a class="nav-link active" aria-current="page" href="duvidas.php">Dúvidas</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Aluguel</a>
+            <a class="nav-link active" aria-current="page" href="agendamento.php">Aluguel</a>
             </li>
             <form class='form-busca' role="search">
             <input class="form-control me-2" id='busca' type="search" placeholder="Search" aria-label="Search">

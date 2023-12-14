@@ -1,0 +1,40 @@
+.conteudo {
+    display: none;
+    margin-top: 10px; /* Ajuste conforme necessário */
+  }
+  
+  .aba {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative; /* Adiciona posição relativa para a seta */
+  }
+  
+  .seta {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 8px;
+    border-color: transparent transparent transparent #fff; /* Cor da seta, pode ajustar conforme necessário */
+  }
+  
+  /* Adiciona estilo ao passar o mouse */
+  .aba:hover {
+    background-color: #0a0a6c; /* Cor de fundo ao passar o mouse */
+  }
+  
+  .aba:hover .seta {
+    border-color: transparent transparent transparent #0a0a6c   ; /* Cor da seta ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para uma mãozinha */
+  }
+
+  body{
+    background-color: rgb(253, 248, 230);
+}
+  
