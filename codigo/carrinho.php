@@ -7,7 +7,7 @@ include('header.php')
 <body>
 
 <div class="title"> 
-        <h1 id="title-a">Seu carrinho:<h1>
+        <h1 id="title-a">Carrinho de compras:<h1>
     </div>
 
     <div class='main-div'>
