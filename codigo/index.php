@@ -18,14 +18,25 @@
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
+    <div class="carousel-caption">
+    <h3>INOVAPRINT</h3>
+    <p>Transformando Ideias em Realidade, Camada por Camada.</p>
+  </div>
       <img src="../img/wall0.jpg" class="d-block w-100" alt="...">
     </div>
+
     <div class="carousel-item">
+    <div class="carousel-caption">
+    <h3>Promoção Especial!</h3>
+    <p>Descontos incríveis em nossos produtos!</p>
+  </div>
       <img src="../img/wall3.jpeg" class="d-block w-100" alt="...">
     </div>
+
     <div class="carousel-item">
-      <img src="../img/wa.jpeg" class="d-block w-100" alt="...">
+      <img src="../img/wall4.jpeg" class="d-block w-100" alt="...">
     </div>
+    
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
