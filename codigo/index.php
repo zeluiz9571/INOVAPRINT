@@ -20,7 +20,7 @@
     <div class="carousel-item active">
     <div class="carousel-caption">
     <h3>INOVAPRINT</h3>
-    <p>Transformando Ideias em Realidade, Camada por Camada.</p>
+    <p>Transformando Ideias em Realidadee, Camada por Camada.</p>
   </div>
       <img src="../img/wall0.jpg" class="d-block w-100" alt="...">
     </div>
