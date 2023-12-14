@@ -1,52 +1,178 @@
-.title{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbarsup {
+    height: 70px;
+    font-family: 'Inter';
     text-align: center;
-    text-decoration: underline;
-   }
-   #title-a{
-       margin-bottom: 30px;
-       margin-top: 30px;
-   }
-
-   .main-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
+    font-size: 27px;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgba(223, 220, 220, 0.91); 
+  }
+  h1{
     text-align: center;
-    margin-top: 40px;
-    gap: 60px;
-    margin-bottom: 60px;
-}
-
-.sub-main{
-    display: flex;
-    justify-content: center;
+    font-size: 30px;
+  }
+  #fundo{
+    background-color: rgba(223, 220, 220, 0.91);
+    width: 300px;
+    margin: 10px 470px;
     align-items: center;
-    gap: 40px;
-}
-
-.sub-main img{
-    width: 25vw;
-    height: 25vw;
-    border-radius: 5px;
-}
-
-.products {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: left;
-    gap: 10px;
-    font-size: large;
+    padding:10px;
+  }
+  #limpar{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    margin: 0px 100px;
+  }
+  #total{
+    font-size: 20px;
+  }
+  
+  .subnavbar {
+    font-family: 'Inter';
+      display: flex;
+      border-style: solid;
+      border-width: 0px 0px 2px 0px;
+      border-color: rgba(0, 0, 0, 0.41);
+      height: 50px;
+      justify-content: center;
+  }
+  
+  .subnavbar li{
+    float: left;
+    padding: 0px 40px;
+    } 
+  
+  .subnavbar :hover {
+    text-decoration: none;
+  }
+  
+  .subnavbar li a {
+    display: block;
     color: black;
     text-decoration: none;
-    width: 300px;
-}
-
-.sub-main a {
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  .subnavbar ul {
+    list-style-type: none;
+    margin-right: 70px;
+    margin-left: 10px;
+  }
+  
+  /*Botão finalizar compra-início-*/
+  
+  #botaofinal {
+    grid-area: final;
+    background-color: #f8f4f4;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid black;
+  }
+  
+  #botaofinal a {
     text-decoration: none;
-}
-
-.products p{
-    max-height: 100px;
-}
+    color: black;
+    text-align: right;
+  }
+  
+  /*Botão finalizar compra-fim-*/
+  
+  #botaoadd {
+    grid-area: adicionar;
+    background-color: rgba(217, 217, 217, 1);
+    text-align: center;
+    padding: 12px;
+  }
+  
+  #botaoadd a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #botaoadd1 {
+    grid-area: adicionar;
+    background-color: rgba(217, 217, 217, 1);
+    text-align: center;
+    padding: 12px;
+    margin-left: 100px;
+  }
+  
+  .footer {
+    height: 100px;
+    text-align: center;
+  }
+  .footer p{
+      padding: 40px;
+  }
+  .lupa {
+      height: 20px;
+      width: 30px;
+      /* margin-left: 1135px;
+      margin-bottom: 0px;
+      margin-top: 0px; */
+      position: fixed;
+      top: 25px;
+      right: 300px;
+   }
+   .class{
+      height: 20px;
+      width: 20px;
+      margin-left: 1100px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+   }  
+  
+  .footer p {
+    padding: 40px;
+  }
+  
+  .lupa {
+    height: 20px;
+    width: 30px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 300px;
+  }
+  
+  .perfil {
+    height: 20px;
+    width: 20px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 220px;
+  }
+  
+  .sacola {
+    height: 20px;
+    width: 30px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 260px;
+  }
+  
+  .container {
+    position: fixed;
+    width: 500px;
+    height: 300px;
+    top: 20px;
+    right: 0;
+  }
+  
