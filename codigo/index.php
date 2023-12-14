@@ -38,7 +38,7 @@
 </div>
 
 
-<div id='principal-div'>
+<div id='principal-div' style="padding: 5%;">
   <div id='main-div'>
     <h1 id='main-card-title'>Produtos em Destaque</h1>
     <div id="main-cards">
