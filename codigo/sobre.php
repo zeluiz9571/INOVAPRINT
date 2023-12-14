@@ -11,6 +11,9 @@
 
 </head>
 <body>
+    <div class="title">
+        <h1 id="title-a">SOBRE NÓS:<h1>
+    </div>
     <div class="content">          
             <p> Adentre o mundo da inovação com a INOVAPRINT, o seu portal para liberar a imaginação! Aqui, as impressoras 3D transformam sua casa em um estúdio de criação, onde suas ideias ganham forma e vida.</p>
 
